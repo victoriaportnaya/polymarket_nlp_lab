@@ -90,6 +90,29 @@ python3 teichmann_backtest.py \
 - `out/*_summary.csv`, `out/*_aggregate.csv`: backtest summaries
 - `out/*.png`: plots (IC, R2, equity curves)
 
+## Pushing to GitHub
+
+1. **Create a new repo on GitHub**  
+   Go to [github.com/new](https://github.com/new). Name it (e.g. `polymarket-sentiment`). Do not add a README or .gitignore; the repo should be empty.
+
+2. **Add the remote and push** (replace `YOUR_USERNAME` and `REPO_NAME` with your GitHub username and repo name):
+
+   ```bash
+   cd /Users/victoriaportnaya/polymarket
+   git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+   If you use SSH instead:
+
+   ```bash
+   git remote add origin git@github.com:YOUR_USERNAME/REPO_NAME.git
+   git push -u origin main
+   ```
+
+3. **Auth**: For HTTPS, GitHub will prompt for username and a Personal Access Token (not your password). For SSH, ensure your key is added to your GitHub account.
+
 # Polymarket + Sentiment Research (Human Guide)
 
 This repo is a practical pipeline for one question:
