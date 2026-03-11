@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Outputs and data (regenerate with scripts)
+out/
+data/
+.mplconfig/
+
+# Large binaries / vendored deps
+bin/
+vendor/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# LaTeX aux
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# Env / secrets (if you add any)
+.env
+.env.local
+*.pem
