@@ -1,8 +1,8 @@
 # Polymarket NLP Lab
 
-Tests whether external sentiment helps predict short-horizon Polymarket price moves using Teichmann-style randomized-signature features and ridge regression.
+Tests whether external sentiment helps predict short-horizon Polymarket price moves using Teichmann's randomized-signature features and ridge regression.
 
-**What it does:** Scans markets by keyword and date overlap, aligns sentiment with price history, builds path features via a CDE, fits ridge models for reconstruction and return prediction, and backtests with fees and walk-forward validation.
+**What it does:** Scans markets by keyword and date overlap, aligns sentiment with price history, builds path features via a CDE, fits ridge models for reconstruction and return prediction and backtests with fees and walk-forward validation.
 
 **How to run** (from repo root; create `out/` and optionally `data/api/` as needed):
 
